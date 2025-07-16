@@ -1,0 +1,81 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #282c34;
+    color: #e0e0e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #3a3f4b;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    width: 90%;
+    max-width: 500px;
+}
+
+h1 {
+    color: #61dafb;
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+.game-area {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+input[type="number"] {
+    padding: 10px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    background-color: #4a4f5d;
+    color: #e0e0e0;
+    width: 120px;
+    font-size: 1em;
+    text-align: center;
+}
+
+input[type="number"]::placeholder {
+    color: #bbb;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #61dafb;
+    color: #282c34;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #21a1f1;
+}
+
+#mensagem {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #e0e0e0;
+}
+
+#tentativasRestantes {
+    font-size: 0.9em;
+    color: #bbbbbb;
+    margin-top: 10px;
+}
